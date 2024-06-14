@@ -1,0 +1,17 @@
+{
+  "name": "helloworld.html",
+  "type": "engram",
+  "smt": {
+    "model": "html",
+    "locus": "./test/data/input/html/",
+    "schema": "helloworld.html",
+    "key": "*"
+  },
+  "fields": [
+    {
+      "name": "Greating",
+      "type": "text",
+      "size": 15
+    }
+  ]
+}

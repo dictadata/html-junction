@@ -1,0 +1,10 @@
+{
+  "status": 0,
+  "message": "OK",
+  "type": "list",
+  "data": [
+    {
+      "Greating": "Hello Universe!"
+    }
+  ]
+}

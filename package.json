@@ -1,0 +1,37 @@
+{
+  "name": "@dictadata/html-junction",
+  "version": "0.9.1",
+  "description": "dictadata StorageJunctions plugin for HTML tabular data.",
+  "author": "Drew O. Letcher",
+  "license": "MIT",
+  "keywords": [
+    "dictadata",
+    "storage",
+    "junction",
+    "html"
+  ],
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "testrunner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dictadata/html-junction.git"
+  },
+  "homepage": "https://github.com/dictadata/html-junction#readme",
+  "bugs": {
+    "url": "https://github.com/dictadata/html-junction/issues"
+  },
+  "devDependencies": {
+    "eslint": "^9.1.0"
+  },
+  "dependencies": {
+    "@dictadata/lib": "github:dictadata/lib#semver:1.0",
+    "@dictadata/storage-junctions": "^0.9.114",
+    "html-data-parser": "^1.0.4"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "az_jan2024.htm",
+  "type": "engram",
+  "smt": {
+    "model": "html",
+    "locus": "./test/data/input/html/",
+    "schema": "az_jan2024.htm",
+    "key": "*"
+  },
+  "fields": [
+    {
+      "name": "County",
+      "type": "text",
+      "size": 10
+    },
+    {
+      "name": "Precincts",
+      "type": "integer"
+    },
+    {
+      "name": "Date/Period",
+      "type": "keyword",
+      "size": 6
+    },
+    {
+      "name": "Democratic",
+      "type": "integer"
+    },
+    {
+      "name": "Green",
+      "type": "keyword",
+      "size": 1
+    },
+    {
+      "name": "Libertarian",
+      "type": "integer"
+    },
+    {
+      "name": "No Labels",
+      "type": "integer"
+    },
+    {
+      "name": "Republican",
+      "type": "integer"
+    },
+    {
+      "name": "Other",
+      "type": "integer"
+    },
+    {
+      "name": "Total",
+      "type": "integer"
+    }
+  ]
+}

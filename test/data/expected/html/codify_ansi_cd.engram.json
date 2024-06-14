@@ -1,0 +1,27 @@
+{
+  "name": "ansi.html",
+  "type": "engram",
+  "smt": {
+    "model": "html",
+    "locus": "./test/data/input/html/",
+    "schema": "ansi.html",
+    "key": "*"
+  },
+  "fields": [
+    {
+      "name": "Field Name",
+      "type": "keyword",
+      "size": 7
+    },
+    {
+      "name": "Field Description",
+      "type": "text",
+      "size": 66
+    },
+    {
+      "name": "Example",
+      "type": "text",
+      "size": 24
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "texas_jan2024.shtml",
+  "type": "engram",
+  "smt": {
+    "model": "html",
+    "locus": "./test/data/input/html/",
+    "schema": "texas_jan2024.shtml",
+    "key": "*"
+  },
+  "fields": [
+    {
+      "name": "County Name",
+      "type": "text",
+      "size": 15
+    },
+    {
+      "name": "Precincts",
+      "type": "integer"
+    },
+    {
+      "name": "Voter Registration",
+      "type": "integer"
+    },
+    {
+      "name": "Suspense Voters",
+      "type": "integer"
+    },
+    {
+      "name": "Non-Suspense Voters",
+      "type": "integer"
+    }
+  ]
+}
