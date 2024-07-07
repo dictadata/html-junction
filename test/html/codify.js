@@ -10,6 +10,21 @@ const { logger } = require("@dictadata/lib");
 logger.info("=== tests: html codify");
 
 async function tests() {
+
+  logger.verbose("=== codify helloworld.html");
+  if (await codify({
+    origin: {
+      "smt": "html|https://www.census.gov/library/reference/code-lists/|class-codes.html|*",
+      "options": {
+        "heading": "Class Codes and Definitions",
+        "cells": 3
+      }
+    },
+    "terminal": {
+      output: "./test/data/output/html/codify_class_codes.json"
+    }
+  })) return 1;
+
   logger.verbose("=== codify helloworld.html");
   if (await codify({
     origin: {

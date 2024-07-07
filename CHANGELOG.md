@@ -1,5 +1,7 @@
 # @dictadata/html-junction Change Log
 
+- version 0.9.3
+  - updated: @dictadata/storage-junctions@0.9.117
 - version 0.9.2
   - updated: html-data-parser@1.0.4
 - version 0.9.1

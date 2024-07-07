@@ -20,7 +20,7 @@
     },
     {
       "name": "Example",
-      "type": "text",
+      "type": "keyword",
       "size": 24
     }
   ]

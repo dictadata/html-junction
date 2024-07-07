@@ -15,17 +15,10 @@ module.exports = class HTMLReader extends StorageReader {
    *
    * @param {object}   junction - parent StorageJunction
    * @param {object}   options
-   * @param {number[]} [options.pages] - array of page numbers to process, if undefined defaults to all pages
    * @param {string}   [options.heading] - HTML section heading or text before data table, default: none
-   * @param {string}   [options.stopHeading] - HTML section heading or text after data table, default: none
+   * @param {string}   [options.id] - value of table id attribute, default: none
    * @param {number}   [options.cells] - minimum number of cells in a tabular data, default: 1
    * @param {boolean}  [options.newlines] - preserve new lines in cell data, default: false
-   * @param {boolean}  [options.artifacts] - parse artifacts content, default: false
-   * @param {number}   [options.pageHeader] - height of page header area in points, default: 0
-   * @param {number}   [options.pageFooter] - height of page footer area in points, default: 0
-   * @param {boolean}  [options.repeating] - indicates if table headers are repeated on each page, default: false
-   * @param {number}   [options.lineHeight] - approximate line height ratio based on font size; default 1.67
-   * @param {boolean}  [options.orderXY] - order cells by XY coordinates on page; default true
    * @param {string[]} [options.headers] - RowAsObject: array of column names for data, default none, first table row contains names.
    * @param {number}   [options.column] - RepeatCellTransform: column index of cell to repeat, default 0
    * @param {string}   [options.header] - RepeatHeadingTransform: column name for the repeating heading field, default "heading:0"

@@ -1,0 +1,27 @@
+{
+  "name": "class-codes.html",
+  "type": "engram",
+  "smt": {
+    "model": "html",
+    "locus": "https://www.census.gov/library/reference/code-lists/",
+    "schema": "class-codes.html",
+    "key": "*"
+  },
+  "fields": [
+    {
+      "name": "Class Code",
+      "type": "keyword",
+      "size": 2
+    },
+    {
+      "name": "Class Code Description",
+      "type": "text",
+      "size": 278
+    },
+    {
+      "name": "Associated Geographic Entity",
+      "type": "text",
+      "size": 91
+    }
+  ]
+}

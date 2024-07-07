@@ -1,6 +1,6 @@
 {
   "name": "@dictadata/html-junction",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "dictadata StorageJunctions plugin for HTML tabular data.",
   "author": "Drew O. Letcher",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@dictadata/lib": "github:dictadata/lib#semver:1.0",
-    "@dictadata/storage-junctions": "^0.9.114",
+    "@dictadata/storage-junctions": "^0.9.117",
     "html-data-parser": "^1.0.4"
   }
 }
